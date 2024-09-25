@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hewan Langka di Indonesia</title>
-    <link rel="stylesheet" href="styles\style.css">
+    <link rel="stylesheet" href="styles/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,6 +25,9 @@
             <li>
                 <a href="#deskripsi">Deskripsi Hewan</a>
             </li>
+            <li>
+                <a href="#ancaman">Ancaman</a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -37,7 +40,7 @@
                 <section class="slides">
                     <div class="slide">
                         <h3>Harimau Sumatra</h3>
-                        <img src="assets\img\harimau_sumatera.jpg" alt="Harimau sumatra">
+                        <img src="assets/img/harimau_sumatera.jpg" alt="Harimau sumatra">
                         <p>
                             <strong>Jumlah di Alam Liar:</strong>
                             &plusmn; 603 ekor
@@ -45,7 +48,7 @@
                     </div>
                     <div class="slide">
                         <h3>Komodo</h3>
-                        <img src="assets\img\komodo.jpg" alt="Komodo">
+                        <img src="assets/img/komodo.jpg" alt="Komodo">
                         <p>
                             <strong>Jumlah di Alam Liar:</strong>
                             &plusmn; 1.427 ekor
@@ -53,7 +56,7 @@
                     </div>
                     <div class="slide">
                         <h3>Orang Utan</h3>
-                        <img src="assets\img\orangutan.jpg" alt="Orangutan">
+                        <img src="assets/img/orangutan.jpg" alt="Orangutan">
                         <p>
                             <strong>Jumlah di Alam Liar:</strong>
                             &plusmn; 8.973 ekor
@@ -61,20 +64,20 @@
                     </div>
                     <div class="slide">
                         <h3>Badak Jawa</h3>
-                        <img src="assets\img\badak jawa.jpg" alt="Badak jawa">
+                        <img src="assets/img/badak jawa.jpg" alt="Badak jawa">
                         <p>
                             <strong>Jumlah di Alam Liar:</strong>
                             &plusmn; 81 ekor    
                         </p>
                     </div>
                 </section>
-                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
-                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+                <button class="slider-prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="slider-next" onclick="changeSlide(1)">&#10095;</button>
             </div>
         </article>
 
-        <article id="deksripsi" class="card">
-            <h2 id="deskripsi">Deskripsi</h2>
+        <article id="deskripsi" class="card">
+            <h2>Deskripsi</h2>
             <section class="deskripsi hewan">
                 <h3>Harimau Sumatra</h3>
                 <p>
@@ -107,6 +110,43 @@
                 </p>
             </section>
         </article>
+
+        <article id="ancaman" class="card">
+            <h2>Ancaman</h2>
+            <p>Beberapa ancaman yang mengakibatkan berkurangnya populasi diantaranya:</p>
+                <section class="ancaman-box">
+                    <h3>Deforestasi</h3>
+                    <p>
+                        Penggundulan hutan secara besar-besaran, terutama untuk perkebunan, pertanian, dan penebangan kayu, menyebabkan hilangnya habitat utama 
+                        hewan langka seperti harimau sumatra dan orangutan.
+                        Hutan-hutan yang hilang mengurangi tempat tinggal, sumber makanan, dan ruang bagi satwa untuk berkembang biak.
+                    </p>
+                </section>
+                <section class="ancaman-box">
+                    <h3>Perburuan Liar</h3>
+                    <p>
+                        Hewan langka sering diburu untuk bagian tubuhnya, seperti kulit, gading, cula, atau untuk diperdagangkan secara ilegal 
+                        sebagai hewan peliharaan eksotis. Contohnya, harimau sumatra diburu untuk diambil kulitnya, dan badak Jawa 
+                        diburu karena cula badaknya yang bernilai tinggi di pasar gelap.
+                    </p>
+                </section>
+                <section class="ancaman-box">
+                    <h3>Konflik dengan Manusia</h3>
+                    <p>
+                        Hewan-hewan langka sering kali memasuki wilayah pemukiman atau perkebunan saat habitat mereka berkurang, 
+                        sehingga terjadi konflik dengan manusia. Hewan-hewan seperti harimau sumatra atau orangutan dianggap sebagai ancaman 
+                        oleh penduduk setempat, dan sering kali dibunuh atau ditangkap.
+                    </p>
+                </section>
+                <section class="ancaman-box">
+                    <h3>Perubahan Iklim</h3>
+                    <p>
+                        Perubahan iklim berdampak negatif pada lingkungan dan ekosistem hewan langka. 
+                        Suhu yang meningkat dan perubahan pola curah hujan mengganggu ketersediaan makanan dan habitat. 
+                        Hewan seperti komodo dapat terpengaruh karena perubahan iklim berdampak pada mangsa mereka dan ekosistem tempat mereka tinggal.
+                    </p>
+                </section>
+        </article>
     </div>
 
     <aside>
@@ -115,7 +155,7 @@
                 <h2>Informasi Kontak</h2>
                 <p>Muhammad Hafizh Husein</p>
                 <figure>
-                    <img src="assets\img\2011500911.jpeg"/>
+                    <img src="assets/img/2011500911.jpeg" alt="foto profil"/>
                 </figure>
             </header>
 
@@ -141,7 +181,7 @@
     &copy; 2024, Muhammad Hafizh Husein
 </footer>
 
-<script src="assets\js\script.js"></script>
+<script src="assets/js/script.js"></script>
     
 </body>
 </html>
