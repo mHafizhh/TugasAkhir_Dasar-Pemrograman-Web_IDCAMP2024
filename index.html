@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hewan Langka di Indonesia</title>
+    <link rel="stylesheet" href="styles\style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header>
+    <div class="jumbotron">
+        <h1>Hewan Langka di Indonesia</h1>
+        <p>Melindungi Keanekaragaman Hayati untuk Masa Depan</p>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="#slider">Jenis Hewan</a>
+            </li>
+            <li>
+                <a href="#deskripsi">Deskripsi Hewan</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="content">
+        <article id="slider" class="card">
+            <h2>Jenis Hewan</h2>
+            <div class="slider">
+                <section class="slides">
+                    <div class="slide">
+                        <h3>Harimau Sumatra</h3>
+                        <img src="assets\img\harimau_sumatera.jpg" alt="Harimau sumatra">
+                        <p>
+                            <strong>Jumlah di Alam Liar:</strong>
+                            &plusmn; 603 ekor
+                        </p>
+                    </div>
+                    <div class="slide">
+                        <h3>Komodo</h3>
+                        <img src="assets\img\komodo.jpg" alt="Komodo">
+                        <p>
+                            <strong>Jumlah di Alam Liar:</strong>
+                            &plusmn; 1.427 ekor
+                        </p>
+                    </div>
+                    <div class="slide">
+                        <h3>Orang Utan</h3>
+                        <img src="assets\img\orangutan.jpg" alt="Orangutan">
+                        <p>
+                            <strong>Jumlah di Alam Liar:</strong>
+                            &plusmn; 8.973 ekor
+                        </p>
+                    </div>
+                    <div class="slide">
+                        <h3>Badak Jawa</h3>
+                        <img src="assets\img\badak jawa.jpg" alt="Badak jawa">
+                        <p>
+                            <strong>Jumlah di Alam Liar:</strong>
+                            &plusmn; 81 ekor    
+                        </p>
+                    </div>
+                </section>
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </article>
+
+        <article id="deksripsi" class="card">
+            <h2 id="deskripsi">Deskripsi</h2>
+            <section class="deskripsi hewan">
+                <h3>Harimau Sumatra</h3>
+                <p>
+                    Harimau Sumatra adalah populasi <em><strong>Panthera Tigris Sondaica</strong></em> yang mendiami pulau Sumatra, 
+                    Indonesia dan satu-satunya anggota subspesies harimau sunda yang masih bertahan hidup hingga saat ini. 
+                    Ia termasuk dalam klasifikasi satwa kritis yang terancam punah <strong>(critically endangered)</strong> dalam daftar merah spesies terancam yang dirilis Lembaga Konservasi Dunia IUCN.
+                </p>
+            </section>
+            <section class="deskripsi hewan">
+                <h3>Komodo</h3>
+                <p>
+                    Komodo atau lengkapnya biawak komodo <em><strong>(Varanus komodoensis)</strong></em>, 
+                    adalah spesies biawak besar yang terdapat di Pulau Komodo, Rinca, Flores, Gili Motang, dan Gili Dasami di Provinsi Nusa Tenggara Timur, Indonesia.
+                    Hewan ini oleh penduduk asli pulau Komodo juga disebut dengan nama setempat ora.
+                </p>
+            </section>
+            <section class="deskripsi hewan">
+                <h3>Orang Utan</h3>
+                <p>
+                    Orang utan atau mawas adalah kera besar dari hutan Indonesia dan Malaysia.
+                    Orang utan diklasifikasikan dalam genus <em><strong>Pongo</strong></em> dan awalnya dianggap hanya terdiri dari satu spesies
+                </p>
+            </section>
+            <section class="deskripsi hewan">
+                <h3>Badak Jawa</h3>
+                <p>
+                    Badak Jawa <em><strong>(Rhinoceros Sondaicus)</strong></em> atau badak bercula satu kecil adalah anggota <strong>terancam kritis</strong>
+                    dari genus <em><strong>Rhinoceros</strong></em>, dari keluarga badak <strong>Rhinocerotidae</strong>. 
+                    Badak Jawa adalah salah satu spesies badak terkecil, bersama dengan badak Sumatra, atau badak "berbulu". 
+                </p>
+            </section>
+        </article>
+    </div>
+
+    <aside>
+        <article class="profile kontak">
+            <header>
+                <h2>Informasi Kontak</h2>
+                <p>Muhammad Hafizh Husein</p>
+                <figure>
+                    <img src="assets\img\2011500911.jpeg"/>
+                </figure>
+            </header>
+
+            <section>
+                <h3>Informasi Lainnya</h3>
+
+                <table>
+                    <tr>
+                        <th>Email</th>
+                        <td>mhafizh2409@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th>Kota</th>
+                        <td>Tangerang Selatan</td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+    </aside>
+</main>
+
+<footer>
+    &copy; 2024, Muhammad Hafizh Husein
+</footer>
+
+<script src="assets\js\script.js"></script>
+    
+</body>
+</html>
